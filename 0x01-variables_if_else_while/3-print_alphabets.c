@@ -13,14 +13,14 @@ int main(void)
 
 	while (i <= 122)
 	{
-		purchar(i);
+		putchar(i);
 		i++;
 	}
 	int a = 65;
 
 	while (a <= 90)
 	{
-		purchar(a);
+		putchar(a);
 		a++;
 	}
 	putchar('\n');

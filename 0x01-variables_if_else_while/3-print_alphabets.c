@@ -10,13 +10,13 @@
 int main(void)
 {
 	int i = 97;
+	int a = 65;
 
 	while (i <= 122)
 	{
 		putchar(i);
 		i++;
 	}
-	int a = 65;
 
 	while (a <= 90)
 	{

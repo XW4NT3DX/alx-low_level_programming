@@ -9,12 +9,12 @@
 void print_rev(char *s)
 {
 	int i = 0;
+	int a = i;
 
 	while (s[i] != '\0')
 	{
 		i++;
 	}
-	int a = i;
 	while (s[a] != '\0')
 	{
 		a--;

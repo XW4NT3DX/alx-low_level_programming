@@ -14,7 +14,7 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-	a = i
+	int a = i;
 	while (s[a] != '\0')
 	{
 		a--;

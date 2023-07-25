@@ -8,16 +8,18 @@
 void rev_string(char *s)
 {
 	char *p = s;
-	int a;
+	char a;
 
 	while (*s)
 	{
 		s++;
 	}
+	s--;
+
 	while (p < s)
 	{
 		*s = a;
-		*p = s;
+		*p = *s;
 		*p = a;
 		p++;
 		s--;
